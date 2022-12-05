@@ -1,0 +1,56 @@
+.case {
+  width: 1880px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.case__header {
+  display: flex;
+  border-bottom: 3px solid #000000;
+  font-family: "Suisse Intl";
+
+  h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    width: 755px;
+  }
+
+  p {
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    &:first-of-type {
+      width: 348px;
+    }
+  }
+}
+
+.case__expanded {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  p {
+    width: 746px;
+    font-family: "Suisse Intl";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    margin: 0;
+  }
+
+  img {
+    width: 1124px;
+    height: 648px;
+  }
+}
