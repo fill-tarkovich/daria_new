@@ -8,6 +8,8 @@
   display: flex;
   border-bottom: 3px solid #000000;
   font-family: "Suisse Intl";
+  cursor: pointer;
+  transition: all 0.6s ease-out;
 
   h2 {
     margin: 0;
@@ -34,11 +36,14 @@
   }
 }
 
-.case__expanded {
+.case__active {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.7s ease-out;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-
+  box-sizing: content-box;
   p {
     width: 746px;
     font-family: "Suisse Intl";
@@ -53,4 +58,8 @@
     width: 1124px;
     height: 648px;
   }
+}
+
+.case__active[aria-expanded="true"] {
+  max-height: 1000px;
 }

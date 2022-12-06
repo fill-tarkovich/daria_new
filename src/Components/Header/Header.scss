@@ -1,4 +1,4 @@
-header {
+.header__top {
   position: absolute;
   width: 1880px;
   left: 0;
@@ -6,6 +6,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
+  color: #000000;
 
   h1 {
     font-family: "Suisse Intl";
@@ -32,5 +33,12 @@ header {
     a {
       margin-bottom: 15px;
     }
+  }
+}
+
+.white {
+  h1,
+  a {
+    color: white;
   }
 }

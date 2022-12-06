@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Herobanner.scss";
+
+const backgroundAmount = 4;
 
 function Herobanner() {
-  const backgroundAmount = 4;
   const [backgroundCount, setBackground] = useState(0);
   const clickHandler = () => {
     backgroundCount === backgroundAmount

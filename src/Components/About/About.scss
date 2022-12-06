@@ -1,0 +1,55 @@
+#about {
+  width: 1880px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  font-family: "Suisse Intl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.current {
+  display: flex;
+  margin-bottom: 52px;
+
+  p {
+    margin: 0;
+
+    &:first-child {
+      margin-right: 198px;
+    }
+    &:nth-child(2) {
+      margin-right: 234px;
+    }
+  }
+}
+
+.text {
+  display: flex;
+
+  div {
+    width: 657px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:first-of-type {
+      width: 216px;
+      line-height: 23px;
+      margin-right: 162px;
+      height: 58px;
+    }
+
+    &:nth-of-type(2) {
+      height: 516px;
+      margin-right: 99px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
