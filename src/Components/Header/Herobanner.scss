@@ -1,7 +1,9 @@
 .herobanner {
   top: 0;
   width: 100vw;
-  height: 950px;
+  height: 100vh;
+  min-height: 650px;
+  max-height: 950px;
   margin: auto;
   margin-bottom: 77px;
   cursor: pointer;

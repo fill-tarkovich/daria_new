@@ -11,7 +11,8 @@ const About = () => {
       </div>
       <div className="text">
         <div>
-          <p>dfarzalyeva@gmail.com</p> <p> +358 469316160</p>
+          <p>dfarzalyeva@gmail.com</p>
+          <p> +358 469316160</p>
         </div>
         <div>
           <p>Hey! </p>{" "}
