@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/daria_new/static/css/main.7c63382b.css",
+    "main.js": "/daria_new/static/js/main.b5281638.js",
+    "static/media/bg4_1920.png": "/daria_new/static/media/bg4_1920.f78bc906fa31a0daef40.png",
+    "static/media/bg2_1920.png": "/daria_new/static/media/bg2_1920.6c9b132488f23cd81e1b.png",
+    "static/media/bg3_1920.png": "/daria_new/static/media/bg3_1920.8b43b503d37b016de5d4.png",
+    "static/media/SuisseIntl-Regular.otf": "/daria_new/static/media/SuisseIntl-Regular.b248914e0a53493d03f0.otf",
+    "static/media/bg1_1920.png": "/daria_new/static/media/bg1_1920.1631b02ae46b3e79ee22.png",
+    "index.html": "/daria_new/index.html",
+    "main.7c63382b.css.map": "/daria_new/static/css/main.7c63382b.css.map",
+    "main.b5281638.js.map": "/daria_new/static/js/main.b5281638.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c63382b.css",
+    "static/js/main.b5281638.js"
+  ]
+}
