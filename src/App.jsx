@@ -38,7 +38,7 @@ function App() {
         />
         <Case
           title="annoushka"
-          category="web / e-comerce"
+          category="web / e-comm"
           date="october 2021"
           description="annoushka jewellery aims to bring a strong female voice to the traditional world of fine jewellery, and to create pieces that elegantly adapt to the lives of the increasing number of women buying jewellery for themselves."
           color="#8BB8A8"
