@@ -1,26 +1,28 @@
 .herobanner {
   top: 0;
-  width: 1920px;
+  width: 100vw;
   height: 950px;
   margin: auto;
   margin-bottom: 77px;
   cursor: pointer;
+  background-position: center;
+  background-size: cover;
 }
 
 .background_0 {
-  background: url(../../img/bg1_1920.png);
+  background-image: url(../../img/bg1_1920.png);
 }
 
 .background_1 {
-  background: url(../../img/bg2_1920.png);
+  background-image: url(../../img/bg2_1920.png);
 }
 
 .background_2 {
-  background: url(../../img/bg3_1920.png);
+  background-image: url(../../img/bg3_1920.png);
 }
 
 .background_3 {
-  background: url(../../img/bg4_1920.png);
+  background-image: url(../../img/bg4_1920.png);
 }
 
 .background_4 {
