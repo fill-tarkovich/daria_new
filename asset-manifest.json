@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/daria_new/static/css/main.8028a69a.css",
-    "main.js": "/daria_new/static/js/main.a5131742.js",
+    "main.css": "/daria_new/static/css/main.1ae31ac6.css",
+    "main.js": "/daria_new/static/js/main.443f8eff.js",
     "static/media/bg4_1920.png": "/daria_new/static/media/bg4_1920.f78bc906fa31a0daef40.png",
     "static/media/bg2_1920.png": "/daria_new/static/media/bg2_1920.6c9b132488f23cd81e1b.png",
+    "static/media/bg4_500.png": "/daria_new/static/media/bg4_500.28036a08e64242c8f1a5.png",
     "static/media/bg3_1920.png": "/daria_new/static/media/bg3_1920.8b43b503d37b016de5d4.png",
     "static/media/SuisseIntl-Regular.otf": "/daria_new/static/media/SuisseIntl-Regular.b248914e0a53493d03f0.otf",
+    "static/media/bg2_320.png": "/daria_new/static/media/bg2_320.e7dcede1b72afb4f3a0d.png",
     "static/media/bg1_1920.png": "/daria_new/static/media/bg1_1920.1631b02ae46b3e79ee22.png",
+    "static/media/bg3_320.png": "/daria_new/static/media/bg3_320.c0f4d62b17ae14f5a91d.png",
     "index.html": "/daria_new/index.html",
-    "main.8028a69a.css.map": "/daria_new/static/css/main.8028a69a.css.map",
-    "main.a5131742.js.map": "/daria_new/static/js/main.a5131742.js.map"
+    "main.1ae31ac6.css.map": "/daria_new/static/css/main.1ae31ac6.css.map",
+    "main.443f8eff.js.map": "/daria_new/static/js/main.443f8eff.js.map"
   },
   "entrypoints": [
-    "static/css/main.8028a69a.css",
-    "static/js/main.a5131742.js"
+    "static/css/main.1ae31ac6.css",
+    "static/js/main.443f8eff.js"
   ]
 }
