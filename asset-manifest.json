@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/daria_new/static/css/main.c7b3d960.css",
-    "main.js": "/daria_new/static/js/main.995085f1.js",
+    "main.css": "/daria_new/static/css/main.d28315b9.css",
+    "main.js": "/daria_new/static/js/main.9e495ef9.js",
     "static/media/bg4_1440@2x.webp": "/daria_new/static/media/bg4_1440@2x.36be34313f34a04a9f68.webp",
     "static/media/bg2_1440@2x.webp": "/daria_new/static/media/bg2_1440@2x.e5674374a78d8a072ee8.webp",
     "static/media/bg4_1024@2x.webp": "/daria_new/static/media/bg4_1024@2x.180774bd7b6ea2d0a6b0.webp",
@@ -38,11 +38,11 @@
     "static/media/bg0_1024@2x.webp": "/daria_new/static/media/bg0_1024@2x.c9cb1e71cc123771115b.webp",
     "static/media/bg0_320@2x.webp": "/daria_new/static/media/bg0_320@2x.7efd81d71b1b27f32c20.webp",
     "index.html": "/daria_new/index.html",
-    "main.c7b3d960.css.map": "/daria_new/static/css/main.c7b3d960.css.map",
-    "main.995085f1.js.map": "/daria_new/static/js/main.995085f1.js.map"
+    "main.d28315b9.css.map": "/daria_new/static/css/main.d28315b9.css.map",
+    "main.9e495ef9.js.map": "/daria_new/static/js/main.9e495ef9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7b3d960.css",
-    "static/js/main.995085f1.js"
+    "static/css/main.d28315b9.css",
+    "static/js/main.9e495ef9.js"
   ]
 }
