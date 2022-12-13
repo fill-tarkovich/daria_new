@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/daria_new/static/css/main.dcd2c7af.css",
+    "main.css": "/daria_new/static/css/main.7545eab4.css",
     "main.js": "/daria_new/static/js/main.57e9910a.js",
     "static/media/bg4_1440@2x.webp": "/daria_new/static/media/bg4_1440@2x.36be34313f34a04a9f68.webp",
     "static/media/bg2_1440@2x.webp": "/daria_new/static/media/bg2_1440@2x.e5674374a78d8a072ee8.webp",
@@ -49,11 +49,11 @@
     "static/media/bg0_1024@2x.webp": "/daria_new/static/media/bg0_1024@2x.c9cb1e71cc123771115b.webp",
     "static/media/bg0_320@2x.webp": "/daria_new/static/media/bg0_320@2x.7efd81d71b1b27f32c20.webp",
     "index.html": "/daria_new/index.html",
-    "main.dcd2c7af.css.map": "/daria_new/static/css/main.dcd2c7af.css.map",
+    "main.7545eab4.css.map": "/daria_new/static/css/main.7545eab4.css.map",
     "main.57e9910a.js.map": "/daria_new/static/js/main.57e9910a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcd2c7af.css",
+    "static/css/main.7545eab4.css",
     "static/js/main.57e9910a.js"
   ]
 }
