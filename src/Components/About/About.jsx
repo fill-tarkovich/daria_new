@@ -46,21 +46,35 @@ const About = () => {
         </div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            placerat tempor arcu porta facilisis. Etiam fermentum fringilla elit
-            vitae dapibus. Sed ut vestibulum odio. Suspendisse sodales sit amet
-            enim sit amet volutpat. Morbi interdum semper mollis. Donec quis
-            lobortis sem. Curabitur in ex dui. Quisque viverra sem lacus, et
-            pharetra risus vehicula nec. Vivamus pretium rutrum efficitur.
-            Praesent rhoncus diam at metus tempus, nec dapibus felis rhoncus.{" "}
+            I love solving problems and creating new design solutions to
+            facilitate the communication of people through various media,
+            creating new visual languages. My main focus is designing web
+            projects and tools using a proper user experience, structured
+            design, and extremely detailed execution.
           </p>
           <p>
-            Nunc vitae pretium arcu, auctor pulvinar diam. Proin cursus turpis
-            at accumsan feugiat. In dolor turpis, dapibus non dolor sed, rhoncus
-            bibendum sapien. Ut velit orci, condimentum sed congue in, porttitor
-            eget libero. Etiam iaculis justo dapibus iaculis ornare. Etiam sed
-            orci semper, gravida lacus eu, luctus sapien.
+            Thanks to my years of experience working in business field, I have
+            been developing my expertise in a number of tools and methodologies
+            for strategic problem solving in any industry. Some of those tools
+            include:
           </p>
+          <ol>
+            <li>
+              {" "}
+              research tools: SWOT analysis, PESTLE, Interview Research, Journey
+              Map;
+            </li>
+            <li>ideation tools: Brainstorming, Evaluation Matrix, Mindmap;</li>
+            <li>
+              prototyping tools: Service Prototypes, User Scenarios, Uuser
+              Stories, Experience Prototype;
+            </li>
+            <li>
+              implementation tools: Business Model Canvas, Value Proposition
+              Canvas, Business Plan, Service Blueprint.
+            </li>
+          </ol>
+          <p>Tools I use for designing: Figma, Photoshop.</p>
         </div>
       </div>
     </div>

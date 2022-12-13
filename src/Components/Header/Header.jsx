@@ -14,7 +14,7 @@ const Header = () => {
   const backgroundClass = `herobanner background_${backgroundCount}`;
 
   return (
-    <header className={backgroundCount === 3 ? "white" : null}>
+    <header className={backgroundCount === 4 ? "white" : null}>
       <div className="header__top">
         <h1>daria designs</h1>
         <nav>
