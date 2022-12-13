@@ -1,7 +1,3 @@
-img {
-  height: max-content;
-}
-
 .caseSingle {
   font-family: "Suisse Intl";
 
@@ -159,6 +155,7 @@ img {
 
     img {
       margin-left: 0;
+      height: auto;
     }
 
     img:first-child {
