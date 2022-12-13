@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/daria_new/static/css/main.41cd2102.css",
-    "main.js": "/daria_new/static/js/main.53155819.js",
+    "main.css": "/daria_new/static/css/main.dcd2c7af.css",
+    "main.js": "/daria_new/static/js/main.57e9910a.js",
     "static/media/bg4_1440@2x.webp": "/daria_new/static/media/bg4_1440@2x.36be34313f34a04a9f68.webp",
     "static/media/bg2_1440@2x.webp": "/daria_new/static/media/bg2_1440@2x.e5674374a78d8a072ee8.webp",
     "static/media/bg4_1024@2x.webp": "/daria_new/static/media/bg4_1024@2x.180774bd7b6ea2d0a6b0.webp",
+    "static/media/peikko10@2x.png": "/daria_new/static/media/peikko10@2x.01cb3afe09beaf364cf4.png",
     "static/media/bg4_1920@2x.webp": "/daria_new/static/media/bg4_1920@2x.6545a761fe25611999b1.webp",
     "static/media/bg2_1024@2x.webp": "/daria_new/static/media/bg2_1024@2x.7424f92768b2272629dc.webp",
     "static/media/bg2_1920@2x.webp": "/daria_new/static/media/bg2_1920@2x.7f557e1e1b8de5958c0f.webp",
@@ -12,12 +13,15 @@
     "static/media/bg4_720@2x.webp": "/daria_new/static/media/bg4_720@2x.7ba57ba1977411ccca81.webp",
     "static/media/bg2_720@2x.webp": "/daria_new/static/media/bg2_720@2x.fa7342d57d3b63f9b060.webp",
     "static/media/bg4_500@2x.webp": "/daria_new/static/media/bg4_500@2x.aa74d9c2e03f83fcdcc3.webp",
+    "static/media/peikko7@2x.png": "/daria_new/static/media/peikko7@2x.583fa5a5ac30953b3feb.png",
     "static/media/bg1_1024@2x.webp": "/daria_new/static/media/bg1_1024@2x.c143466e40759807978d.webp",
+    "static/media/peikko2@2x.png": "/daria_new/static/media/peikko2@2x.812c36b535ac59c68f9b.png",
     "static/media/bg2_500@2x.webp": "/daria_new/static/media/bg2_500@2x.a16d7cb74c0ef71f6eb0.webp",
     "static/media/annoushka@2x.jpg": "/daria_new/static/media/annoushka@2x.60a20a9680103cb43ae7.jpg",
     "static/media/bg1_1440@2x.webp": "/daria_new/static/media/bg1_1440@2x.849ccdfa5b4a037241f7.webp",
     "static/media/haruki@2x.jpg": "/daria_new/static/media/haruki@2x.b14294a0fdcbf114f85a.jpg",
     "static/media/kinfolk@2x.jpg": "/daria_new/static/media/kinfolk@2x.3fab8e521b46618f3d5c.jpg",
+    "static/media/peikko1@2x.png": "/daria_new/static/media/peikko1@2x.395b7b78473cf3e042de.png",
     "static/media/bg1_1920@2x.webp": "/daria_new/static/media/bg1_1920@2x.ff07085344d52e788255.webp",
     "static/media/wemake@2x.jpg": "/daria_new/static/media/wemake@2x.91b671df95564f6d1edb.jpg",
     "static/media/peikko@2x.jpg": "/daria_new/static/media/peikko@2x.504e1ce7fe3575695e51.jpg",
@@ -25,12 +29,18 @@
     "static/media/bg1_720@2x.webp": "/daria_new/static/media/bg1_720@2x.0ce042f4b9bbaed15f08.webp",
     "static/media/bg3_1920@2x.webp": "/daria_new/static/media/bg3_1920@2x.795499c1095246212c95.webp",
     "static/media/bg1_500@2x.webp": "/daria_new/static/media/bg1_500@2x.dbf19bd3cb396a65b81e.webp",
+    "static/media/peikko4@2x.png": "/daria_new/static/media/peikko4@2x.0083aeb385b03edcfc4c.png",
     "static/media/bg3_1440@2x.webp": "/daria_new/static/media/bg3_1440@2x.e449439f6a6f04312df0.webp",
     "static/media/bg1_320@2x.webp": "/daria_new/static/media/bg1_320@2x.a74190180a5438f04a46.webp",
+    "static/media/peikko8@2x.png": "/daria_new/static/media/peikko8@2x.888994f1d358c534fb72.png",
+    "static/media/peikko3@2x.png": "/daria_new/static/media/peikko3@2x.496901eb848e4c614666.png",
+    "static/media/peikko9@2x.png": "/daria_new/static/media/peikko9@2x.738cca2944eb41a35aba.png",
     "static/media/SuisseIntl-Regular.otf": "/daria_new/static/media/SuisseIntl-Regular.b248914e0a53493d03f0.otf",
     "static/media/bg3_1024@2x.webp": "/daria_new/static/media/bg3_1024@2x.ccff464bde453f565dbc.webp",
+    "static/media/peikko5@2x.png": "/daria_new/static/media/peikko5@2x.99f88c6ccc2505549932.png",
     "static/media/bg3_720@2x.webp": "/daria_new/static/media/bg3_720@2x.43ab5b9ebc1d6e119ae2.webp",
     "static/media/bg3_500@2x.webp": "/daria_new/static/media/bg3_500@2x.1f620fc55b2ee680bf11.webp",
+    "static/media/peikko6@2x.png": "/daria_new/static/media/peikko6@2x.2af147baef373d53af1b.png",
     "static/media/bg3_320@2x.webp": "/daria_new/static/media/bg3_320@2x.c0dc7a4058c117ae333a.webp",
     "static/media/bg0_1920@2x.webp": "/daria_new/static/media/bg0_1920@2x.dd93970e6e63ae519b85.webp",
     "static/media/bg0_1440@2x.webp": "/daria_new/static/media/bg0_1440@2x.1fa7391f411a430ce429.webp",
@@ -39,11 +49,11 @@
     "static/media/bg0_1024@2x.webp": "/daria_new/static/media/bg0_1024@2x.c9cb1e71cc123771115b.webp",
     "static/media/bg0_320@2x.webp": "/daria_new/static/media/bg0_320@2x.7efd81d71b1b27f32c20.webp",
     "index.html": "/daria_new/index.html",
-    "main.41cd2102.css.map": "/daria_new/static/css/main.41cd2102.css.map",
-    "main.53155819.js.map": "/daria_new/static/js/main.53155819.js.map"
+    "main.dcd2c7af.css.map": "/daria_new/static/css/main.dcd2c7af.css.map",
+    "main.57e9910a.js.map": "/daria_new/static/js/main.57e9910a.js.map"
   },
   "entrypoints": [
-    "static/css/main.41cd2102.css",
-    "static/js/main.53155819.js"
+    "static/css/main.dcd2c7af.css",
+    "static/js/main.57e9910a.js"
   ]
 }
