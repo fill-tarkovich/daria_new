@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/daria_new/static/css/main.a78bf129.css",
-    "main.js": "/daria_new/static/js/main.0d4caeb1.js",
+    "main.css": "/daria_new/static/css/main.6af5f37b.css",
+    "main.js": "/daria_new/static/js/main.d1c89ccc.js",
     "static/media/wemake10@2x.png": "/daria_new/static/media/wemake10@2x.0d532f97b691529cc452.png",
     "static/media/modules10@2x.png": "/daria_new/static/media/modules10@2x.8aee7c5a9b1e44ce0d59.png",
     "static/media/bg4_1440@2x.webp": "/daria_new/static/media/bg4_1440@2x.36be34313f34a04a9f68.webp",
@@ -88,11 +88,11 @@
     "static/media/bg0_1024@2x.webp": "/daria_new/static/media/bg0_1024@2x.c9cb1e71cc123771115b.webp",
     "static/media/bg0_320@2x.webp": "/daria_new/static/media/bg0_320@2x.7efd81d71b1b27f32c20.webp",
     "index.html": "/daria_new/index.html",
-    "main.a78bf129.css.map": "/daria_new/static/css/main.a78bf129.css.map",
-    "main.0d4caeb1.js.map": "/daria_new/static/js/main.0d4caeb1.js.map"
+    "main.6af5f37b.css.map": "/daria_new/static/css/main.6af5f37b.css.map",
+    "main.d1c89ccc.js.map": "/daria_new/static/js/main.d1c89ccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a78bf129.css",
-    "static/js/main.0d4caeb1.js"
+    "static/css/main.6af5f37b.css",
+    "static/js/main.d1c89ccc.js"
   ]
 }
