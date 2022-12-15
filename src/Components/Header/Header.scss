@@ -23,6 +23,11 @@
   &.case_single {
     position: relative;
     height: 210px;
+
+    @media (max-width: 550px) {
+      height: 105px;
+      width: 87.5%;
+    }
   }
 
   h1 {

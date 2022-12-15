@@ -42,45 +42,41 @@ const CaseSingle = () => {
         />
         <p className="description">{location.state.text1}</p>
         <div className="images_block_top">
-          <img
-            className="img_big"
-            src={location.state.img1}
-            alt={location.state.title}
-          />
-          <img
-            className="img_big"
-            src={location.state.img2}
-            alt={location.state.title}
-          />
+          <div className="img_big">
+            <img src={location?.state?.img1} alt={location.state.title} />
+            <img src={location?.state?.img2} alt={location.state.title} />
+          </div>
           <div className="images_column">
-            <img src={location.state.img3} alt={location.state.title} />
-            <img src={location.state.img4} alt={location.state.title} />
+            <img src={location?.state?.img3} alt={location.state.title} />
+            <img src={location?.state?.img4} alt={location.state.title} />
           </div>
           <div className="images_small">
-            <img src={location.state.img5} alt={location.state.title} />
-            <img src={location.state.img6} alt={location.state.title} />
+            <img src={location?.state?.img5} alt={location.state.title} />
+            <img src={location?.state?.img6} alt={location.state.title} />
           </div>
         </div>
         <div className="text_block">
-          <p>{location.state.text2}</p>
-          <p>{location.state.text3}</p>
+          <p>{location?.state?.text2}</p>
+          <p>{location?.state?.text3}</p>
         </div>
         <div className="images_block_middle">
           <div>
-            <img src={location.state.img7} alt={location.state.title} />
-            <img src={location.state.img8} alt={location.state.title} />
+            <img src={location?.state?.img7} alt={location.state.title} />
+            <img src={location?.state?.img8} alt={location.state.title} />
           </div>
-          <img src={location.state.img9} alt={location.state.title} />
+          <img src={location?.state?.img9} alt={location.state.title} />
         </div>
         <div className="text_block">
-          <p>{location.state.text4}</p>
-          <p>{location.state.text5}</p>
+          <p>{location?.state?.text4}</p>
+          <p>{location?.state?.text5}</p>
         </div>
-        <img
-          src={location.state.img10}
-          alt={location.state.title}
-          className="image_bottom"
-        />
+        {location?.state?.img10 && (
+          <img
+            src={location?.state?.img10}
+            alt={location?.state?.title}
+            className="image_bottom"
+          />
+        )}
         <p className="text_block_bottom">{location.state.text6}</p>
       </div>
       <button className="back_button" onClick={() => navigate("/daria_new")}>

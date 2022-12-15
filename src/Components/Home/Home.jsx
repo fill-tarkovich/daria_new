@@ -16,6 +16,48 @@ import peikko9 from "../../img/peikko9@2x.png";
 import peikko10 from "../../img/peikko10@2x.png";
 import peikko_main from "../../img/peikko_main@2x.jpg";
 import annoushka from "../../img/annoushka@2x.jpg";
+import annoushka1 from "../../img/annoushka1@2x.png";
+import annoushka2 from "../../img/annoushka2@2x.png";
+import annoushka3 from "../../img/annoushka3@2x.png";
+import annoushka4 from "../../img/annoushka4@2x.png";
+import annoushka5 from "../../img/annoushka5@2x.png";
+import annoushka6 from "../../img/annoushka6@2x.png";
+import annoushka7 from "../../img/annoushka7@2x.png";
+import annoushka8 from "../../img/annoushka8@2x.png";
+import annoushka9 from "../../img/annoushka9@2x.png";
+import annoushka10 from "../../img/annoushka10@2x.png";
+import wemake1 from "../../img/wemake1@2x.png";
+import wemake2 from "../../img/wemake2@2x.png";
+import wemake3 from "../../img/wemake3@2x.png";
+import wemake4 from "../../img/wemake4@2x.png";
+import wemake5 from "../../img/wemake5@2x.png";
+import wemake6 from "../../img/wemake6@2x.png";
+import wemake7 from "../../img/wemake7@2x.png";
+import wemake8 from "../../img/wemake8@2x.png";
+import wemake9 from "../../img/wemake9@2x.png";
+import wemake10 from "../../img/wemake10@2x.png";
+
+import modules1 from "../../img/modules1@2x.png";
+import modules2 from "../../img/modules2@2x.png";
+import modules3 from "../../img/modules3@2x.png";
+import modules4 from "../../img/modules4@2x.png";
+import modules5 from "../../img/modules5@2x.png";
+import modules6 from "../../img/modules6@2x.png";
+import modules7 from "../../img/modules7@2x.png";
+import modules8 from "../../img/modules8@2x.png";
+import modules9 from "../../img/modules9@2x.png";
+import modules10 from "../../img/modules10@2x.png";
+
+import haruki1 from "../../img/haruki1@2x.png";
+import haruki2 from "../../img/haruki2@2x.png";
+import haruki3 from "../../img/haruki3@2x.png";
+import haruki4 from "../../img/haruki4@2x.png";
+import haruki5 from "../../img/haruki5@2x.png";
+import haruki6 from "../../img/haruki6@2x.png";
+import haruki7 from "../../img/haruki7@2x.png";
+import haruki8 from "../../img/haruki8@2x.png";
+import haruki9 from "../../img/haruki9@2x.png";
+
 import Header from "../Header/Header";
 
 const Home = () => {
@@ -31,6 +73,24 @@ const Home = () => {
           description="this project has been done as a part of an intensive, 2 days long course on the topic of modular longreads. the scope of work has been 4 pages: main, catalogue, authors page and an article."
           color="#DDFFF7"
           image={kinofolk}
+          tags={["services", "ux/ui design"]}
+          img_main={peikko_main}
+          text1="the aim of the course has been creating an equally engaging, seamless experience across all screen sizes, keeping functionality across devices without loosing much in the way of performance or features."
+          img1={modules1}
+          img2={modules2}
+          img3={modules3}
+          img4={modules4}
+          img5={modules5}
+          img6={modules6}
+          text2="the course materials required usage of one specific font, Suisse Int’l, and monochromatic look. redesign concept has been built upon kinfolk material. grid required to be 1920px in width. modules were supposed to be universal for each block of website, titles and descriptions staying the same."
+          text3="firstly, atomic design approach has been applied to the process of work. current design of kinfolk has been carefully analysed in order to get a clear ‘as-is’ picture of the site and understand what components, molecules and atoms, it uses in its information architecture. the goal was to avoid restructuring kinfolk as much as possible, since the aim lied more in reskinning the website."
+          img7={modules7}
+          img8={modules8}
+          img9={modules9}
+          text4="to sustain editorial grid, carefully curated modules are used in mathematical, systemic grid that leaves no place for randomness or thoughtlessness. each module comes in order. the gaps in modules exist to create an uncluttered experience for users, it helps to avoid excess of information and keep users’ attention on the content of the website without tiring readers out. header and footer are done in sync to complement each other, this way they create a feeling of finished cycle."
+          text5="it has been decided to put emphasis on prolonged lines, keeping width of photos set and letting height adjust depending on photo’s orientation. this way of module usage allows to preserve original media in a more efficient preview. modules include all possible variants of media usage; in catalogue page colour coded rectangles are used to maintain page flow and weight. to keep the sense of stretching and add a little editorial turn, it has been decided to set text container to 60% of a module width at all times."
+          img10={modules10}
+          text6="over two days, aimed agenda of the course has been achieved. each page has been done in three breakpoints: desktop, tablet, and mobile. modules successfully survived testing, and managed to work on each device. this course brought me a deeper understanding of working with grids and modules, creating structured, organised ‘chaos’ that is efficient to use, easy to navigate and, more importantly, achievable in code and easily maintained due to set of simple, systemic rules."
         />
         <Case
           title="we make"
@@ -40,6 +100,24 @@ const Home = () => {
           description="we make is a creative agency based in antwerp, belgium."
           color="#89A6FB"
           image={wemake}
+          tags={["services", "ux/ui design"]}
+          img_main={peikko_main}
+          text1="the brief of this project focused around the concept of ‘vision’ and drive of emotive response from consumers by immersing them in ‘vision’ for products and services. the goal was to create a distinctive and ownable identity that positions them as a matured creative agency offering tailored design solutions that meet their clients specific needs."
+          img1={wemake1}
+          img2={wemake2}
+          img3={wemake3}
+          img4={wemake4}
+          img5={wemake5}
+          img6={wemake6}
+          text2="SWOT analysis has been carried out beforehand to identify key issues and strengths of we make in a highly competitive environment. research and analysis has helped to pinpoint aspects of the agency that has to be tailored to fit required needs of redesign and distinguish we make from competitors."
+          text3="instead of going safe, it has been decided to go bold. this approach finds itself in typography and grid, smaller paddings that aim to create tension and strengthen horizontal line, keeping feeling of compactness in tact."
+          img7={wemake7}
+          img8={wemake8}
+          img9={wemake9}
+          text4="in order to bring truly premium experience that the company offers, the brand architecture has been reviewed and brought up-to-date. grid became more compact and thoughtful, structured. it creates a sense of modernity and ownership. new colour palette has been built upon sustainability issue and a desire to reassure maturity."
+          text5="star as a symbol of connectivity, of finding true path towards end goal. simplicity and brevity are foundation for we make redesign. their work, their legacy are speaking for we make better than anything else."
+          img10={wemake10}
+          text6="the vision, born at the beginning, has been beautifully curated till the end of the project. it’s been a pleasure to dive deeper into sustainability topic, into creating simple, yet complicated guidelines for a design."
         />
         <Case
           title="haruki"
@@ -49,6 +127,24 @@ const Home = () => {
           description="haruki residence is a premium-class residential complex in an ecologically clear area of moscow with spacious apartments, developed infrustructure and managed gardens."
           color="#E5A9A9"
           image={haruki}
+          tags={["services", "ux/ui design"]}
+          img_main={peikko_main}
+          text1="brief aimed at creating an inclusive and ownable identity that positions haruki as a premium-class residential complex offering tailored design apartments that meet their clients specific needs."
+          img1={haruki1}
+          img2={haruki2}
+          img3={haruki3}
+          img4={haruki4}
+          img5={haruki5}
+          img6={haruki6}
+          text2="after analysis of key competitors, of common residential web projects, it has been decided to focus on perfect taste and an impeccable eye for detail. strategy has been built around the concept of ‘seeing’ products that leads to an emotive response from immersing potential clients in their vision of own home."
+          text3="‘a premium feel’ has been captured through beautifully distinctive and obviously ownable content, a polished structure of grid and minimalism of landing page."
+          img7={haruki7}
+          img8={haruki8}
+          img9={haruki9}
+          text4="landing page had to be inclusive and considerable. CTAs are placed in strategically right areas of website to avoid being intrusive and haunting. they carefully weaved into storytelling."
+          text5="from a design perspective, haruki came out to be digitally-friendly and agile across all breakpoints."
+          // img10={modules10}
+          // text6="over two days, aimed agenda of the course has been achieved. each page has been done in three breakpoints: desktop, tablet, and mobile. modules successfully survived testing, and managed to work on each device. this course brought me a deeper understanding of working with grids and modules, creating structured, organised ‘chaos’ that is efficient to use, easy to navigate and, more importantly, achievable in code and easily maintained due to set of simple, systemic rules."
         />
         <Case
           title="peikko"
@@ -85,6 +181,24 @@ const Home = () => {
           description="annoushka jewellery aims to bring a strong female voice to the traditional world of fine jewellery, and to create pieces that elegantly adapt to the lives of the increasing number of women buying jewellery for themselves."
           color="#8BB8A8"
           image={annoushka}
+          tags={["services", "ux/ui design"]}
+          img_main={peikko_main}
+          text1="main goal of the project was to understand and analyse current consumer behaviours and the behaviours of millennials and centennials. annoushka is striving to understand how to approach younger generations."
+          img1={annoushka1}
+          img2={annoushka2}
+          img3={annoushka3}
+          img4={annoushka4}
+          img5={annoushka5}
+          img6={annoushka6}
+          text2="SWOT and competitive analysis has been carried out at the beginning of work to understand better not only annoushka’s brand, but also its major competitors and market environment. as a result, gathered information has helped in defining key points of improvement for annoushka as a brand and as a business."
+          text3="in order to bring truly premium experience that annoushka offers, it has been decided to change information architecture of the website and overall look of annoushka’s website since it didn’t match neither brand identity nor desired holistic experience."
+          img7={annoushka7}
+          img8={annoushka8}
+          img9={annoushka9}
+          text4="font has been changed to libre baskerville and neue haas grotesk to bring out elegance and legacy annoushka has. a lot of emphasis has been put into high-quality photos of products, storytelling and easier access to information. priority lies within client’s convenience and usability."
+          text5="colour palette has been changed and reduced to smaller amount. used in redesign pastel peach and grey are creating a feeling of refinement, credibility and calmness. instead of active usage, it has been suggested to use colours for details and attention to avoid overloading the website."
+          img10={annoushka10}
+          text6="project involved creating a visually driven medium for consumers to interact with the brand at an omnichannel level. the best part of the work has been creating a fresh start for annoushka’s brand, still preserving legacy and reputation it  has gained."
         />
       </div>
       <About />

@@ -21,12 +21,11 @@
   }
 
   @media (max-width: 719px) {
-    height: 450px;
+    max-height: 550px;
   }
 
   @media (max-width: 499px) {
     margin-bottom: 30px;
-    min-height: 450px;
   }
 }
 

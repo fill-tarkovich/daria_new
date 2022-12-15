@@ -4,6 +4,14 @@
   p {
     font-size: 20px;
     line-height: 130%;
+
+    @media (max-width: 1439px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -12,6 +20,7 @@
   width: 100%;
   border-bottom: 1px solid black;
   display: flex;
+
   h2 {
     font-weight: 500;
     font-size: 85px;
@@ -19,6 +28,16 @@
     text-transform: uppercase;
     margin: 0;
     margin-left: 1%;
+
+    @media (max-width: 1439px) {
+      font-size: 35px;
+      margin-left: 2.6%;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 25px;
+      margin-left: 6.25%;
+    }
   }
 
   p {
@@ -33,29 +52,78 @@
     margin-top: 28px;
 
     &:first-of-type {
-      width: 12%;
+      width: 15%;
       margin-left: 40%;
+
+      @media (max-width: 550px) {
+        font-size: 20px;
+        margin-left: 6.25%;
+        top: 20px;
+        width: 25%;
+      }
+    }
+
+    @media (max-width: 1439px) {
+      font-size: 25px;
+      margin-top: 9px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 20px;
+      margin-left: 55%;
+      top: 20px;
+      width: 25%;
     }
   }
 }
 
 .description {
   width: 39%;
+  margin: 0;
   margin-left: 40%;
   margin-top: 25px;
+
+  @media (max-width: 1439px) {
+    width: 72%;
+    margin-left: 2.5%;
+  }
+
+  @media (max-width: 550px) {
+    width: 87.5%;
+    margin: auto;
+  }
+
+  &:first-of-type {
+    @media (max-width: 550px) {
+      margin-top: 54px;
+    }
+  }
 }
 
 .tags {
-  height: 140px;
+  height: min-content;
   font-size: 20px;
   list-style: none;
   width: 34%;
+  margin: 0;
   margin-left: 40%;
   margin-top: 50px;
   padding: 0;
   display: flex;
   box-sizing: border-box;
   justify-content: space-between;
+
+  @media (max-width: 1439px) {
+    margin-left: 2.5%;
+    font-size: 16px;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 14px;
+    width: 47%;
+    margin-left: 6.25%;
+    margin-top: 10px;
+  }
 
   li {
     margin-bottom: 5px;
@@ -72,7 +140,16 @@
 
 .img_main {
   width: 100%;
+  height: auto;
   margin-top: 50px;
+
+  @media (max-width: 1439px) {
+    margin-top: 25px;
+  }
+
+  @media (max-width: 550px) {
+    margin-bottom: 25px;
+  }
 }
 
 .images_block_top {
@@ -80,24 +157,83 @@
   margin-left: 1%;
   margin-top: 17px;
 
+  @media (max-width: 1439px) {
+    margin-top: 50px;
+    margin-left: 2.5%;
+    flex-direction: column;
+  }
+
+  @media (max-width: 550px) {
+    width: 87.5%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
   .img_big {
-    width: 19.17%;
-    margin-top: 7px;
-    margin-right: 0.5%;
-    object-fit: cover;
+    display: flex;
+    width: 38.85%;
+    justify-content: space-between;
+
+    @media (max-width: 1439px) {
+      width: 75.5%;
+    }
+
+    @media (max-width: 550px) {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+    }
+
+    img {
+      width: 49%;
+      height: auto;
+      margin-top: 7px;
+      margin-right: 0.5%;
+      object-fit: cover;
+
+      @media (max-width: 1439px) {
+        margin-right: 0;
+        margin-top: 0;
+        width: 49%;
+      }
+
+      @media (max-width: 550px) {
+        width: 100%;
+      }
+    }
   }
 
   .images_column {
     display: flex;
     flex-direction: column;
-    width: 19.17%;
+    justify-content: space-between;
+    width: 19%;
     margin-top: 7px;
+    margin-left: 0.4%;
+
+    @media (max-width: 1439px) {
+      flex-direction: row;
+      width: 75.5%;
+      margin-left: 0;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 550px) {
+      margin-top: 10px;
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+    }
 
     img {
       width: 100%;
+      height: auto;
 
-      &:first-child {
-        margin-bottom: 7px;
+      @media (max-width: 1439px) {
+        width: 49%;
+      }
+      @media (max-width: 550px) {
+        width: 100%;
       }
     }
   }
@@ -105,14 +241,34 @@
   .images_small {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    width: 29%;
+    width: 27%;
     margin-left: 6%;
+
+    @media (max-width: 1439px) {
+      width: 42.75%;
+      margin-left: 0;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 550px) {
+      width: 100%;
+      margin: auto;
+      margin-top: 10px;
+    }
 
     img {
       width: 49%;
+      height: auto;
       height: 80%;
       margin-top: 97px;
+
+      @media (max-width: 1439px) {
+        margin-top: 0;
+      }
+
+      @media (max-width: 550px) {
+        width: 48.5%;
+      }
     }
   }
 }
@@ -123,12 +279,38 @@
   margin-left: 1%;
   margin-top: 50px;
 
+  @media (max-width: 1439px) {
+    flex-direction: column;
+    margin-top: 50px;
+    width: 72.25%;
+    margin-left: 2.5%;
+  }
+
+  @media (max-width: 550px) {
+    width: 87.5%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
   p {
     width: 38.85%;
     margin: 0;
 
+    @media (max-width: 1439px) {
+      width: 100%;
+    }
+
     &:nth-child(2) {
       margin-left: 1%;
+
+      @media (max-width: 1439px) {
+        margin-left: 0;
+        margin-top: 25px;
+      }
+
+      @media (max-width: 550px) {
+        margin-top: 10px;
+      }
     }
   }
 }
@@ -141,10 +323,24 @@
   margin-top: 50px;
   gap: 1%;
 
+  @media (max-width: 1439px) {
+    width: 95%;
+  }
+
+  @media (max-width: 550px) {
+    width: 87.5%;
+    margin-top: 25px;
+  }
+
   img {
     width: 58.54%;
-    height: max-content;
+    height: auto;
     margin-left: 40%;
+
+    @media (max-width: 1439px) {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 
   div {
@@ -153,6 +349,12 @@
     gap: 10px;
     margin-bottom: 50px;
 
+    @media (max-width: 1439px) {
+      flex-direction: column;
+      gap: 25px;
+      margin-bottom: 25px;
+    }
+
     img {
       margin-left: 0;
       height: auto;
@@ -160,13 +362,26 @@
 
     img:first-child {
       width: 39.5%;
+
+      @media (max-width: 1439px) {
+        width: 60%;
+      }
+
+      @media (max-width: 550px) {
+        width: 100%;
+      }
     }
   }
 }
 
 .image_bottom {
   width: 100%;
+  height: auto;
   margin-top: 60px;
+
+  @media (max-width: 550px) {
+    margin-top: 25px;
+  }
 }
 
 .text_block_bottom {
@@ -174,6 +389,17 @@
   margin: 0;
   margin-left: 40%;
   margin-top: 50px;
+
+  @media (max-width: 1439px) {
+    width: 72.25%;
+    margin-left: 2.5%;
+  }
+
+  @media (max-width: 550px) {
+    width: 87.5%;
+    margin: auto;
+    margin-top: 25px;
+  }
 }
 
 .back_button {
@@ -188,6 +414,20 @@
   padding: 0;
   position: relative;
   cursor: pointer;
+
+  @media (max-width: 1439px) {
+    margin-left: 2.5%;
+    font-size: 16px;
+    width: 95px;
+  }
+
+  @media (max-width: 550px) {
+    width: 83px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 6.25%;
+  }
 
   &::before,
   &::after {
