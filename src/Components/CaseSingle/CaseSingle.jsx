@@ -13,6 +13,7 @@ const CaseSingle = () => {
     <div style={bgColor}>
       <header className="header__top case_single">
         <svg
+          onClick={() => navigate("/daria_new")}
           width="109"
           height="46"
           viewBox="0 0 109 46"

@@ -20,6 +20,7 @@
   @media (max-width: 1023px) {
     max-height: 650px;
     margin-bottom: 10px;
+    cursor: pointer;
   }
 
   @media (max-width: 719px) {
@@ -27,6 +28,7 @@
   }
 
   @media (max-width: 499px) {
+    max-height: 500px;
     margin-bottom: 0;
   }
 

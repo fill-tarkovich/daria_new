@@ -15,6 +15,10 @@ import peikko8 from "../../img/webp/peikko8@2x.webp";
 import peikko9 from "../../img/webp/peikko9@2x.webp";
 import peikko10 from "../../img/webp/peikko10@2x.webp";
 import peikko_main from "../../img/webp/peikko_main@2x.webp";
+import annoushka_main from "../../img/webp/annoushka_main@2x.webp";
+import haruki_main from "../../img/webp/haruki_main@2x.webp";
+import wemake_main from "../../img/webp/wemake_main@2x.webp";
+import modules_main from "../../img/webp/modules_main@2x.webp";
 import annoushka from "../../img/webp/annoushka@2x.webp";
 import annoushka1 from "../../img/webp/annoushka1@2x.webp";
 import annoushka2 from "../../img/webp/annoushka2@2x.webp";
@@ -74,7 +78,7 @@ const Home = () => {
           color="#DDFFF7"
           image={kinofolk}
           tags={["services", "ux/ui design"]}
-          img_main={peikko_main}
+          img_main={modules_main}
           text1="the aim of the course has been creating an equally engaging, seamless experience across all screen sizes, keeping functionality across devices without loosing much in the way of performance or features."
           img1={modules1}
           img2={modules2}
@@ -101,7 +105,7 @@ const Home = () => {
           color="#89A6FB"
           image={wemake}
           tags={["services", "ux/ui design"]}
-          img_main={peikko_main}
+          img_main={wemake_main}
           text1="the brief of this project focused around the concept of ‘vision’ and drive of emotive response from consumers by immersing them in ‘vision’ for products and services. the goal was to create a distinctive and ownable identity that positions them as a matured creative agency offering tailored design solutions that meet their clients specific needs."
           img1={wemake1}
           img2={wemake2}
@@ -128,7 +132,7 @@ const Home = () => {
           color="#E5A9A9"
           image={haruki}
           tags={["services", "ux/ui design"]}
-          img_main={peikko_main}
+          img_main={haruki_main}
           text1="brief aimed at creating an inclusive and ownable identity that positions haruki as a premium-class residential complex offering tailored design apartments that meet their clients specific needs."
           img1={haruki1}
           img2={haruki2}
@@ -182,7 +186,7 @@ const Home = () => {
           color="#8BB8A8"
           image={annoushka}
           tags={["services", "ux/ui design"]}
-          img_main={peikko_main}
+          img_main={annoushka_main}
           text1="main goal of the project was to understand and analyse current consumer behaviours and the behaviours of millennials and centennials. annoushka is striving to understand how to approach younger generations."
           img1={annoushka1}
           img2={annoushka2}
