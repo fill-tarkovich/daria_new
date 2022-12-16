@@ -14,7 +14,7 @@
     margin-bottom: 100px;
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: 1024px) {
     width: 95%;
     font-size: 16px;
   }
@@ -42,7 +42,7 @@
     &:first-child {
       width: 20%;
 
-      @media (max-width: 1023px) {
+      @media (max-width: 1024px) {
         width: 25%;
       }
 
@@ -68,7 +68,7 @@
     flex-wrap: wrap;
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
   }
 
@@ -82,7 +82,7 @@
       width: 56%;
     }
 
-    @media (max-width: 1023px) {
+    @media (max-width: 1024px) {
       margin-left: 0;
       width: 81%;
     }

@@ -1,78 +1,22 @@
 .header__top {
-  position: absolute;
-  width: 98%;
-  max-width: 1920px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  color: #000000;
-  font-size: 20px;
-  line-height: 23px;
-
-  @media (max-width: 1439px) {
-    font-size: 16px;
-  }
-
-  @media (max-width: 719px) {
-    font-size: 14px;
-    width: 95%;
-  }
-
-  &.case_single {
-    position: relative;
-    height: 210px;
-
-    @media (max-width: 550px) {
-      height: 105px;
-      width: 87.5%;
-    }
-  }
-
-  h1 {
-    font-family: "Suisse Intl";
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
-    margin: 0;
-    font-size: 20px;
-    line-height: 23px;
-
-    @media (max-width: 1439px) {
-      font-size: 16px;
-    }
-
-    @media (max-width: 719px) {
-      font-size: 14px;
-    }
-  }
-
-  ul {
-    font-family: "Suisse Intl";
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    position: absolute;
+  svg {
     top: 30px;
-    right: 0;
-    margin: 0;
-    padding: 0;
-
-    a {
-      margin-bottom: 15px;
-
-      @media (max-width: 719px) {
-        margin-bottom: 10px;
-      }
-    }
+    left: 20px;
+    position: absolute;
+    z-index: 100;
   }
 }
 
+.header__top.case_single {
+  height: 160px;
+}
+
 .white {
-  h1,
-  a {
-    color: white;
+  path {
+    fill: white;
+  }
+
+  line {
+    stroke: white;
   }
 }

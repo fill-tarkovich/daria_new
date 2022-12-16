@@ -1,4 +1,5 @@
 .herobanner {
+  position: relative;
   top: 0;
   width: 100vw;
   height: 100vh;
@@ -11,13 +12,14 @@
   background-repeat: no-repeat;
   cursor: url("../../img/cursor.png"), pointer;
 
-  @media (max-width: 1439px) {
+  @media (max-width: 1400px) {
     min-height: 500px;
     max-height: 750px;
   }
 
   @media (max-width: 1023px) {
     max-height: 650px;
+    margin-bottom: 10px;
   }
 
   @media (max-width: 719px) {
@@ -25,106 +27,117 @@
   }
 
   @media (max-width: 499px) {
-    margin-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  img {
+    display: none;
+
+    @media (max-width: 1023px) {
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
   }
 }
 
 .background_0 {
-  background-image: url(../../img/bg0_1920@2x.webp);
+  background-image: url(../../img/webp/bg0_1920@2x.webp);
 
   @media (max-width: 1919px) {
-    background-image: url(../../img/bg0_1440@2x.webp);
+    background-image: url(../../img/webp/bg0_1440@2x.webp);
   }
-  @media (max-width: 1439px) {
-    background-image: url(../../img/bg0_1024@2x.webp);
+  @media (max-width: 1400px) {
+    background-image: url(../../img/webp/bg0_1024@2x.webp);
   }
   @media (max-width: 1023px) {
-    background-image: url(../../img/bg0_720@2x.webp);
+    background-image: url(../../img/webp/bg0_720@2x.webp);
   }
   @media (max-width: 719px) {
-    background-image: url(../../img/bg0_500@2x.webp);
+    background-image: url(../../img/webp/bg0_500@2x.webp);
   }
   @media (max-width: 499px) {
-    background-image: url(../../img/bg0_320@2x.webp);
+    background-image: url(../../img/webp/bg0_320@2x.webp);
   }
 }
 
 .background_1 {
-  background-image: url(../../img/bg1_1920@2x.webp);
+  background-image: url(../../img/webp/bg1_1920@2x.webp);
 
   @media (max-width: 1919px) {
-    background-image: url(../../img/bg1_1440@2x.webp);
+    background-image: url(../../img/webp/bg1_1440@2x.webp);
   }
-  @media (max-width: 1439px) {
-    background-image: url(../../img/bg1_1024@2x.webp);
+  @media (max-width: 1400px) {
+    background-image: url(../../img/webp/bg1_1024@2x.webp);
   }
   @media (max-width: 1023px) {
-    background-image: url(../../img/bg1_720@2x.webp);
+    background-image: url(../../img/webp/bg1_720@2x.webp);
   }
   @media (max-width: 719px) {
-    background-image: url(../../img/bg1_500@2x.webp);
+    background-image: url(../../img/webp/bg1_500@2x.webp);
   }
   @media (max-width: 499px) {
-    background-image: url(../../img/bg1_320@2x.webp);
+    background-image: url(../../img/webp/bg1_320@2x.webp);
   }
 }
 
 .background_2 {
-  background-image: url(../../img/bg2_1920@2x.webp);
+  background-image: url(../../img/webp/bg2_1920@2x.webp);
 
   @media (max-width: 1919px) {
-    background-image: url(../../img/bg2_1440@2x.webp);
+    background-image: url(../../img/webp/bg2_1440@2x.webp);
   }
-  @media (max-width: 1439px) {
-    background-image: url(../../img/bg2_1024@2x.webp);
+  @media (max-width: 1400px) {
+    background-image: url(../../img/webp/bg2_1024@2x.webp);
   }
   @media (max-width: 1023px) {
-    background-image: url(../../img/bg2_720@2x.webp);
+    background-image: url(../../img/webp/bg2_720@2x.webp);
   }
   @media (max-width: 719px) {
-    background-image: url(../../img/bg2_500@2x.webp);
+    background-image: url(../../img/webp/bg2_500@2x.webp);
   }
   @media (max-width: 499px) {
-    background-image: url(../../img/bg2_320@2x.webp);
+    background-image: url(../../img/webp/bg2_320@2x.webp);
   }
 }
 
 .background_3 {
-  background-image: url(../../img/bg3_1920@2x.webp);
+  background-image: url(../../img/webp/bg3_1920@2x.webp);
 
   @media (max-width: 1919px) {
-    background-image: url(../../img/bg3_1440@2x.webp);
+    background-image: url(../../img/webp/bg3_1440@2x.webp);
   }
-  @media (max-width: 1439px) {
-    background-image: url(../../img/bg3_1024@2x.webp);
+  @media (max-width: 1400px) {
+    background-image: url(../../img/webp/bg3_1024@2x.webp);
   }
   @media (max-width: 1023px) {
-    background-image: url(../../img/bg3_720@2x.webp);
+    background-image: url(../../img/webp/bg3_720@2x.webp);
   }
   @media (max-width: 719px) {
-    background-image: url(../../img/bg3_500@2x.webp);
+    background-image: url(../../img/webp/bg3_500@2x.webp);
   }
   @media (max-width: 499px) {
-    background-image: url(../../img/bg3_320@2x.webp);
+    background-image: url(../../img/webp/bg3_320@2x.webp);
   }
 }
 
 .background_4 {
-  background-image: url(../../img/bg4_1920@2x.webp);
+  background-image: url(../../img/webp/bg4_1920@2x.webp);
 
   @media (max-width: 1919px) {
-    background-image: url(../../img/bg4_1440@2x.webp);
+    background-image: url(../../img/webp/bg4_1440@2x.webp);
   }
-  @media (max-width: 1439px) {
-    background-image: url(../../img/bg4_1024@2x.webp);
+  @media (max-width: 1400px) {
+    background-image: url(../../img/webp/bg4_1024@2x.webp);
   }
   @media (max-width: 1023px) {
-    background-image: url(../../img/bg4_720@2x.webp);
+    background-image: url(../../img/webp/bg4_720@2x.webp);
   }
   @media (max-width: 719px) {
-    background-image: url(../../img/bg4_500@2x.webp);
+    background-image: url(../../img/webp/bg4_500@2x.webp);
   }
   @media (max-width: 499px) {
-    background-image: url(../../img/bg4_500@2x.webp);
+    background-image: url(../../img/webp/bg4_500@2x.webp);
   }
 }

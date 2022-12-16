@@ -73,6 +73,7 @@ const Case = ({
             <p className="date">{date}</p>
           </div>
         ) : null}
+        <img src={image} alt="case_image" width={932}></img>
         <div className="case_info">
           <p>{description}</p>
           <Link
@@ -107,7 +108,6 @@ const Case = ({
             read more
           </Link>
         </div>
-        <img src={image} alt="case_image" width={932}></img>
       </div>
     </section>
   );
