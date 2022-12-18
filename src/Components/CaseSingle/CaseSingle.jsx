@@ -13,7 +13,7 @@ const CaseSingle = () => {
     <div style={bgColor}>
       <header className="header__top case_single">
         <svg
-          onClick={() => navigate("/daria_new")}
+          onClick={() => navigate("/")}
           width="109"
           height="46"
           viewBox="0 0 109 46"
@@ -90,7 +90,7 @@ const CaseSingle = () => {
         )}
         <p className="text_block_bottom">{location.state.text6}</p>
       </div>
-      <button className="back_button" onClick={() => navigate("/daria_new")}>
+      <button className="back_button" onClick={() => navigate("/")}>
         back to main
       </button>
     </div>

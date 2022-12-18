@@ -13,7 +13,12 @@ const About = () => {
         <div>
           <p>dfarzalyeva@gmail.com</p>
           <p> +358 469316160</p>
-          <a href="https://www.linkedin.com/in/dariafarzalyeva/">LinkedIn</a>
+          <a
+            className="link"
+            href="https://www.linkedin.com/in/dariafarzalyeva/"
+          >
+            LinkedIn
+          </a>
         </div>
         <div>
           <p>
